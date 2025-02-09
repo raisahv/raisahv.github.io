@@ -84,6 +84,11 @@ nav ul li:not(.title) {
   text-align: right;
 }
 
+nav a {
+  text-decoration: none;
+  color: var(--first-color);
+}
+
 nav ul li:first-child {
   text-align: left;
   color: var(--third-color);
