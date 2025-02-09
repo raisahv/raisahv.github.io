@@ -94,7 +94,8 @@ abbr[title] {
 
 b,
 strong {
-  font-weight: bolder;
+  font-weight: 999;
+  color: var(--fourth-color);
 }
 
 /**

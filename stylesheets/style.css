@@ -2,6 +2,7 @@
   --main-color: rgb(245, 245, 197);;
   --second-color: rgb(230, 165, 80);
   --third-color: rgb(49, 49, 126);
+  --fourth-color: rgb(76, 94, 173);
 }
 
 body {
@@ -11,7 +12,7 @@ body {
   color: var(--third-color);
   margin: 0px;
   padding: 0px;
-  margin-top: 100px;
+  margin-top: 90px;
   height: 100%;
   width: 100%;
 }
@@ -21,12 +22,11 @@ img {
   object-fit: cover;
   width: 300px;
   height: 300px;
-  padding: 20px 0;
   border-radius: 20%;
 }
 
 h1 {
-  font-size: 3em;
+  font-size: 2.7em;
   color: var(--third-color);
 }
 
@@ -35,7 +35,7 @@ h1 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 0 150px 20px 150px;
+  padding: 0 150px 40px 150px;
 }
 
 .nav-container, .footer-container {
@@ -55,7 +55,7 @@ h1 {
 
 ul {
   display: grid;
-  grid-template-columns: 40% 20% 13% 15% 10%;
+  grid-template-columns: 70% 13% 10% 16%;
   list-style: none;
   margin: 10px;
   padding: 0 4px;
@@ -90,6 +90,7 @@ nav ul li:first-child {
 
 .nav-container li a, .footer-container li a {
   color: var(--main-color);
+  font-size: 0.9em;
 }
 
 .nav-container li a:hover, .footer-container li a:hover {
@@ -149,11 +150,12 @@ nav ul li:first-child {
 .footer-container ul {
   display: grid;
   padding: 5px 30%;
-  grid-template-columns: 1fr 1fr 1fr; 
+  grid-template-columns: 1fr 1fr; 
 }
 
 .footer-container ul li a {
   color: var(--third-color);
+  font-size: 0.9em;
 }
 
 
