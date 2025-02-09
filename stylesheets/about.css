@@ -16,7 +16,7 @@ img {
   list-style: circle;
   display: normal;
   grid-template-columns: 1fr ;
-  font-size: 1.1em;
+  font-size: 18px;
   letter-spacing: .1em;
   padding: 0 32px;
 }
